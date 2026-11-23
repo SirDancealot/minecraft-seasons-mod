@@ -3,9 +3,11 @@
 	"id": "seasonal-effects",
 	"version": "${version}",
 	"name": "Seasonal Effects",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Mod introducing seasonal effects and more to crops players and the like",
 	"authors": [
-		"Me!"
+		"SirEraisuithon",
+        "ItsCappi",
+        "AndywaysMC"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
