@@ -1,5 +1,7 @@
 package dk.mjsoftware.seasons;
 
+import dk.mjsoftware.seasons.component.SeasonalComponents;
+import dk.mjsoftware.seasons.items.Items;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -22,6 +24,9 @@ public class SeasonalEffects implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		Items.initialize();
+		CreativeTab.initialize();
+		SeasonalComponents.initialize();
 	}
 
 	public static Identifier id(String path) {
